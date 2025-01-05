@@ -1,0 +1,82 @@
+/* css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: wheat;
+    color: black;
+    font-size: 25px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    margin: 20px 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(186, 26, 235);
+    font-weight: bold;
+}
+
+section.articulos ul li{
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    border-bottom: solid 1px violet;
+    margin: 5px 5px 10px 10px;
+    padding: 2px;
+    text-align: left;
+    text-decoration: none;
+}
+
+section.paginacion {
+    background: rgb(255, 136, 99);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    width: auto;
+    margin: auto;
+    border: 2px rgb(231, 77, 77) solid;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.paginacion ul .disabled {
+    background: rgb(238, 71, 121);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: not-allowed;
+    color: #fff;
+    text-decoration: none;
+}
+
+.paginacion ul li.active {
+    background: rgb(241, 119, 205);
+}
+.paginacion ul li a:hover {
+    text-decoration: none;
+    background: pink;
+}
+
+
+section.paginacion ul li {
+    display: inline-block;
+    height: 27px;
+    width: 27px;
+    margin: auto;
+    background: rgb(241, 162, 162);
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    margin: auto;
+}

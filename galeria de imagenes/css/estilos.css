@@ -1,0 +1,142 @@
+body {
+  background-color: #494949; /* Gris perla */
+  color: white;
+  font-family: "Slabo 27px", serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div,
+img {
+  color: white;
+  font-family: "Slabo 27px", serif;
+}
+
+.contenedor {
+  margin: 10px; /* Ajusta el margen entre las imágenes */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  max-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Ajusta el espacio alrededor de las imágenes */
+}
+
+.paginacion {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px; /* Ajusta el espacio superior según sea necesario */
+}
+.paginacion a {
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #007bff; /* Color de fondo de los botones */
+  color: white; /* Color del texto de los botones */
+  border-radius: 5px; /* Bordes redondeados de los botones */
+}
+.paginacion a:hover {
+  background-color: #0056b3; /* Color de fondo de los botones al pasar el ratón por encima */
+}
+
+.foto {
+  margin-bottom: 20px; /* Espacio entre la foto y el texto */
+}
+.foto img {
+  width: auto;
+  height: 500px;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: auto;
+}
+.texto {
+  margin: 10px 0;
+}
+.regresar {
+  align-self: flex-start;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px; /* Espacio superior del botón */
+}
+.regresar:hover {
+  background-color: #0056b3;
+}
+
+.formulario {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0; /* Ajusta el margen superior e inferior según sea necesario */
+}
+.formulario label,
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  margin-bottom: 15px; /* Espacio entre los elementos del formulario */
+  text-align: left;
+}
+.formulario input[type="file"] {
+  margin-bottom: 20px;
+}
+.formulario input[type="submit"] {
+  width: auto;
+  align-self: flex-start;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px; /* Espacio superior del botón */
+  cursor: pointer;
+}
+.formulario input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para el pie de página */
+footer {
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Contenedor de las imágenes */
+.thumb {
+  max-width: 100%; /* Ajusta el tamaño de las imágenes para que se alineen */
+  max-height: auto;
+  margin-bottom: 20px; /* Espacio inferior entre las imágenes */
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  border: solid whitesmoke 2px;
+  margin: 10px;
+}
+
+.thumb img {
+  width: 500px; /* Las imágenes ocuparán todo el ancho de su contenedor */
+  height: 300px; /* Mantiene la proporción de la imagen */
+  object-fit: cover; /* Asegura que las imágenes no se distorsionen */
+  max-width: 500px; /* Ajusta el tamaño de las imágenes para que se alineen */
+  max-height: 300px;
+  border-radius: 3px;
+  border: solid black 5px;
+  margin: 0;
+  padding: 0;
+}
+
+.imagenes2 {
+  display: flex;
+  /* margin: 10px; */
+}
